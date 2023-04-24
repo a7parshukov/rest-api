@@ -1,0 +1,26 @@
+{
+  "name": "dev-rest-api",
+  "version": "1.0.0",
+  "description": "REST API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "REST API",
+    "REACT",
+    "express"
+  ],
+  "author": "Aleksandr Parshukov",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
